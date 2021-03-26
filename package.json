@@ -1,0 +1,29 @@
+{
+  "name": "change_endpoints_notificator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newrevo-Inc/change_endpoints_notificator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newrevo-Inc/change_endpoints_notificator/issues"
+  },
+  "homepage": "https://github.com/newrevo-Inc/change_endpoints_notificator#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0",
+    "caniuse-lite": "^1.0.30001204",
+    "get-dependency-tree": "^4.0.1",
+    "meriyah": "^4.1.5",
+    "path": "^0.12.7",
+    "vue-template-compiler": "^2.6.12"
+  }
+}

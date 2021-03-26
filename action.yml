@@ -1,0 +1,20 @@
+name: 'Vue Endpoint Notificator'
+description: 'notify endpoints if you change files'
+inputs:
+  my-token:  # octkit token
+    description: 'octkit token'
+    required: true
+  routes-file-name:  # vue route name
+    description: 'vue route name'
+    required: true
+  ignore-pattern:  # ignore file name pattern
+    description: 'ignore file name pattern'
+    required: false
+    default: null
+  trigger-file-exts:  # trigger file extension
+    description: 'trigger file extension. sepalater is ,'
+    required: false
+    default: '.js,.vue'
+runs:
+  using: 'node12'
+  main: 'index.js'
